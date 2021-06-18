@@ -1,0 +1,16 @@
+import React, {Component} from 'react'
+class Fct extends Component {
+  render() {
+    return (<div> hi </div>)
+  }
+
+}
+
+function orderChickenWith(sideDish) {
+sideDish = sideDish || " whatever"
+  console.log("chicken" + sideDish)
+}
+  orderChickenWith("chili")
+  orderChickenWith()
+
+export default Fct
