@@ -1,0 +1,20 @@
+
+import React, {Component} from 'react'
+class Fct extends Component {
+  render() {
+    return (<div> hi </div>)
+  }
+}
+
+var facebook = {
+  name: "facebook",
+
+      ceo: {
+        firstName: "Mark",
+        favColor : "blue"
+      },
+      
+  "stock of compagny" : '11O'
+};
+console.log(facebook)
+export default Fct
