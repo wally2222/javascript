@@ -1,0 +1,20 @@
+
+import React, {Component} from 'react'
+class Fct extends Component {
+  render() {
+    return (<div> hi </div>)
+  }
+}
+var compagny = new Object();
+compagny.name= "Facebook"
+console.log(compagny.name)
+compagny.ceo = new Object();
+compagny.ceo.firstName = "Mark"
+compagny.ceo.favColor = "bleu"
+console.log(compagny["name"])
+console.log(compagny["ceo"])
+console.log(compagny.ceo["favColor"])
+compagny["stock of company"] = 120
+console.log(compagny["stock of company"])
+
+export default Fct
